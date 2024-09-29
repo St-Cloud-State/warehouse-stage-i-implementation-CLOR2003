@@ -1,0 +1,36 @@
+Script started on 2024-09-29 00:13:03+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="11"]
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ java Product_folder/driver.javac Product_folder/driver.java
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ javac Product_folder/driver.java[1P Product_folder/driver.java
+1111 chickens : {42,jimseries,1.0}
+1141 fish : {43,burgerKing,12.22}
+1141 fish : {43,burgerKing,12.22}
+true
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ java Product_folder/driver.javac Product_folder/driver.java
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ javac Product_folder/driver.java[1P Product_folder/driver.java
+1111 chickens : {42,jimseries,1.0}
+1141 tigers : {43,burgerKing,12.22}
+1211 fish : {2,mcdonalds,15.0}
+true
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ 
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ java Product_folder/driver.javac Product_folder/driver.java
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ javac Product_folder/driver.java[1P Product_folder/driver.java
+1111 chickens : {42,jimseries,1.0}
+1141 fish : {43,burgerKing,12.22}
+1141 fish : {43,burgerKing,12.22}
+true
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ java Product_folder/driver.javac Product_folder/driver.java
+Product_folder/driver.java:32: error: cannot find symbol
+        p2 = plist.search(p1.getID());
+                          ^
+  symbol:   variable p1
+  location: class driver
+1 error
+[0;32m@CLOR2003 [1;31m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ javac Product_folder/driver.java
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ javac Product_folder/driver.java[1P Product_folder/driver.java
+1111 fish : {42,jimseries,1.0}
+1141 tigers : {43,burgerKing,12.22}
+1141 tigers : {43,burgerKing,12.22}
+true
+[0;32m@CLOR2003 [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-CLOR2003 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2024-09-29 00:15:01+00:00 [COMMAND_EXIT_CODE="0"]
