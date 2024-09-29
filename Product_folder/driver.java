@@ -32,6 +32,22 @@ public class driver{
         p2 = plist.search(p2.getID());
         p2.setName("fish");
 
+        // Insert product bird as p4
+        Product p4 = new Product("2222","bird",44,"Bobby's",10.99);
+        plist.insertProduct(p4);
+
+        // Remove p2
+        plist.RemoveProduct(p2.getID());
+
+        // Change price from 10.99 to 19.99
+        p4.setPrice(19.99);
+
+        // Change manufacturer from Bobby's to Eddy's
+        p4.setManufacturer("Eddy's");
+
+        // Change quantity of chicken from 44 to 1
+        p.setQuantity(1);
+
         // Assign iterator to all products
         Iterator<Product> iterator = plist.getProducts();
 
@@ -40,7 +56,17 @@ public class driver{
             System.out.println(iterator.next());
         };
 
+        // Test getters of product
+        System.out.println("ID of p: " + plist.search(p.getID()).getID());
+        System.out.println("Name of p: " + plist.search(p.getID()).getName());
+        System.out.println("Quantity of p: " + plist.search(p.getID()).getQuantity());
+        System.out.println("Manufacturer of p: " + plist.search(p.getID()).getManufacturer());
+        System.out.println("Price of p: " + plist.search(p.getID()).getPrice());
+
+        // Test toString method
+        System.out.println("Testing toString method: "+p);
+
         // Displays the success or failure of insertion
-        System.out.println(result);
+        System.out.println("Did the insertions work? " + result);
     }
 }
